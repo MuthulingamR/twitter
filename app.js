@@ -143,7 +143,7 @@ app.post("/login/", async (request, response) => {
   }
 });
 
-// API - 3
+// API - 3 tweets
 
 app.get("/user/tweets/feed/", authentication, async (request, response) => {
   const { username } = request;
